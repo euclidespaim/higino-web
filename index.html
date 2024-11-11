@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
-    <!-- Menu e Logo -->
-    <header>
-        <div class="logo">
-            <img src="/images/logo.png" alt="Logo da Escola Higino João Pio">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Início</a></li>
-                <li><a href="/pages/biblioteca.html">Biblioteca</a></li>
-                <li><a href="/pages/laboratorio.html">Laboratório</a></li>
-                <li><a href="/pages/maker.html">Maker</a></li>
-                <li><a href="/pages/turismo.html">Turismo</a></li>
-                <li><a href="/pages/gremio.html">Grêmio</a></li>
-            </ul>
-        </nav>
-    </header>
+    
+<header>
+    <div class="logo">
+        <img src="/images/logo.png" alt="Logo da Escola Higino João Pio">
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Ícone do menu hambúrguer -->
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="/index.html">Início</a></li>
+            <li><a href="/pages/biblioteca.html">Biblioteca</a></li>
+            <li><a href="/pages/laboratorio.html">Laboratório</a></li>
+            <li><a href="/pages/maker.html">Maker</a></li>
+            <li><a href="/pages/turismo.html">Turismo</a></li>
+            <li><a href="/pages/gremio.html">Grêmio</a></li>
+        </ul>
+    </nav>
+</header>
 
     <!-- Conteúdo Central -->
     <section class="content">
@@ -37,6 +38,6 @@
     </footer>
 
     <!-- Script para exibir a data atual -->
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
